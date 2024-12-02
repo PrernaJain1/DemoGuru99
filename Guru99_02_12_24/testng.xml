@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="custom.listener.report.CustomListnerExtentReport"></listener>
+    </listeners>
+    <test verbose="2" name="C:/Users/prerna.jain/Downloads/DemoAppium/Guru99/src/main">
+        <classes>
+            <class name="com.guru.Testcases.AccessingLinkTestCase"></class>
+<!--            <class name="com.guru.Testcases.AjaxDemoTestCase"></class>-->
+<!--            <class name="com.guru.Testcases.DeleteCustomerFormTestCase"></class>-->
+<!--            <class name="com.guru.Testcases.DemoFlashMovieTestCase"></class>-->
+<!--            <class name="com.guru.Testcases.DragAndDropTestCase"></class>-->
+<!--            <class name="com.guru.Testcases.FileUploadTestCase"></class>-->
+<!--            <class name="com.guru.Testcases.LoginTestCase"></class>-->
+<!--            <class name="com.guru.Testcases.RadioAndCheckBox"></class>-->
+<!--            <class name="com.guru.Testcases.ScrollBarTestCase"></class>-->
+<!--            <class name="com.guru.Testcases.TooltipTestCase"/>-->
+        </classes>
+    </test>
+</suite>
